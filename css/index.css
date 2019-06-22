@@ -168,6 +168,26 @@ img {
   width: 100%;
   margin: 0 auto;
 }
+.topNav {
+  height: 50px;
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-evenly;
+}
+.topNav h3 {
+  font-size: 26pt;
+}
+nav {
+  font-size: 10pt;
+  width: 50%;
+  display: inline-flex;
+  justify-content: space-evenly;
+  margin: 15px;
+  margin-left: 259px;
+}
+nav a {
+  text-decoration: none;
+}
 .footer {
   width: 100%;
   border-top: 2px dashed silver;
