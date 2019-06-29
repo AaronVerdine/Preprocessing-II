@@ -1,1 +1,25 @@
 // Mixins in here
+
+.button-fixed () {
+    width: 220px;
+    height: 40px;
+    margin-left: auto;
+    margin-right: 30px;
+    border: 1pt solid lightgrey;
+    // background: teal;
+    // font-size: 12pt;
+    // color: white;
+    // padding-top: 10px;
+}
+
+.button-parametric(@text-align, @border-radius) {
+    text-align: @text-align;
+    border-radius: @border-radius;
+}
+
+.button-parametric-with-default (@background, @font-size, @color, @padding-top) {
+    background: @background;
+    font-size: @font-size;
+    color: @color;
+    padding-top: @padding-top;
+}
